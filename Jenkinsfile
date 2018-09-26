@@ -10,6 +10,9 @@ try {
         stage("third") {
             println "ステージ3？"
         }
+	stage("four") {
+	    sh "python ./test.py"
+	}
     }
 } catch(e) {
     println "エラー処理"
