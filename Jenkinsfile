@@ -19,5 +19,7 @@ try {
     }
 } catch(e) {
     println "エラー処理"
+    e.printStackTrace()
+    println "エラー処理終わり"
 }
 println "テスト1です。"
