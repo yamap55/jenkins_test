@@ -1,5 +1,8 @@
 try {
     node {
+        stage("git_checkout") {
+            checkout scm
+        }
         stage("first") {
             println "最初のステージ？"
         }
