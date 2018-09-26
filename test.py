@@ -1,5 +1,5 @@
 def hoge1():
-    raise Error('error!!')
+    raise ValueError('error!!')
 
 def hoge2():
     hoge1()
