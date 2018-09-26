@@ -18,6 +18,7 @@ try {
 	}
     }
 } catch(e) {
+    println e
     println "エラー処理"
     println(e.stackTrace as List)
     println "エラー処理終わり"
